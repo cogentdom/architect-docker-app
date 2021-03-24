@@ -1,2 +1,2 @@
-# Stock_Prediction_AWS
+# Stock Prediction
 -----  
