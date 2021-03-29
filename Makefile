@@ -1,8 +1,8 @@
-IMAGE_NAME := stockapp
+IMAGE_NAME := chiefdom/stockapp
 IMAGE_TAG := $(VERSION)-$(CHANNEL)
 
 ifeq ($(IMAGE_TAG),-)
-	IMAGE_TAG := latest
+	IMAGE_TAG := v2
 endif
 
 default: release
