@@ -1,11 +1,11 @@
 # Dockerfile, Image, Container
 FROM python:3.9.2
 
-WORKDIR /app
+WORKDIR /opt/app
 
 COPY requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
-EXPOSE 80
-COPY . /app
+EXPOSE 8501
+COPY . .
 ENTRYPOINT ["streamlit", "run"]
-CMD ["main.py"]
+CMD ["app.py"]

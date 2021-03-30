@@ -2,7 +2,7 @@ IMAGE_NAME := chiefdom/stockapp
 IMAGE_TAG := $(VERSION)-$(CHANNEL)
 
 ifeq ($(IMAGE_TAG),-)
-	IMAGE_TAG := v2
+	IMAGE_TAG := v1
 endif
 
 default: release
