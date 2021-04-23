@@ -1,4 +1,4 @@
-IMAGE_NAME := chiefdom/stockapp
+IMAGE_NAME := chief-dom/stockapp
 IMAGE_TAG := $(VERSION)-$(CHANNEL)
 
 ifeq ($(IMAGE_TAG),-)
